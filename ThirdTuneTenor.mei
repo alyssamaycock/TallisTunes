@@ -23,15 +23,15 @@
         <score>
           <scoreDef>
               <staffGrp n="1">
-					  <staffDef clef.line="4" clef.shape="C" key.sig="0" lines="5" n="1" notationtype="mensural">
-                    <label>Tenor</label>
-                  </staffDef>
+					  		<staffDef clef.line="4" clef.shape="C" key.sig="0" lines="5" n="1" notationtype="mensural">
+                  <label>Tenor</label>
+                </staffDef>
               </staffGrp>
 			 </scoreDef>
           <section>
 					<staff n="1">
 							<layer n="1">
-								<dot />
+								 <dot />
 								 <note dur="minima" oct="3" pname="e">
 									 <accid oloc="4" ploc="c" ho="3" accid="s" />
 									 <verse n="1">
