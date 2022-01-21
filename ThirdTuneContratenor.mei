@@ -23,13 +23,13 @@
         <score>
           <scoreDef>
           	<staffGrp n="1">
-					<staffDef clef.line="3" clef.shape="C" key.sig="0" lines="5" n="1" notationtype="mensural">
+							<staffDef clef.line="3" clef.shape="C" key.sig="0" lines="5" n="1" notationtype="mensural">
                	<label>Contratenor</label>
-               </staffDef>
+              </staffDef>
             </staffGrp>
 			 </scoreDef>
           <section>
-					<staff n="1">
+						<staff n="1">
 							<layer n="1">
 								<dot />
 								 <note dur="minima" oct="3" pname="b">
