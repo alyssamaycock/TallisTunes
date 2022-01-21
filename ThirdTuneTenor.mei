@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+	<meiHead>
+		<fileDesc>
+			<titleStmt>
+        <title>The Third Tune: Why fumeth and fight</title>
+        <editor>Alyssa Maycock</editor>
+      </titleStmt>
+      <pubStmt>
+        <unpub/>
+      </pubStmt>
+    </fileDesc>
+    <workDesc>
+      <work>
+        <title>Why fumeth and fight</title>
+        <composer>Thomas Tallis</composer>
+      </work>
+    </workDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+              <staffGrp n="1">
+					  <staffDef clef.line="4" clef.shape="C" key.sig="0" lines="5" n="1" notationtype="mensural">
+                    <label>Tenor</label>
+                  </staffDef>
+              </staffGrp>
+			 </scoreDef>
+          <section>
+					<staff n="1">
+							<layer n="1">
+								<dot />
+								 <note dur="minima" oct="3" pname="e">
+									 <accid oloc="4" ploc="c" ho="3" accid="s" />
+									 <verse n="1">
+										 <syl wordpos="i">Why</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="g">
+									 <verse n="1">
+										 <syl wordpos="i">fumeth</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="g">
+									 <verse n="1">
+										 <syl wordpos="i">in</syl>
+									 </verse>
+								 </note>
+								 <note dur="semibrevis" oct="3" pname="g">
+									 <verse n="1">
+										 <syl wordpos="i">fight:</syl>
+									 </verse>
+								 </note>
+								 <dot />
+								 <barLine />
+								 <note dur="minima" oct="3" pname="g">
+									 <verse n="1">
+										 <syl wordpos="i">the</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="a">
+									 <verse n="1">
+										 <syl con="d" wordpos="i">Gen</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="a">
+									 <verse n="1">
+										 <syl wordpos="t">tiles</syl>
+									 </verse>
+								 </note>
+								 <note dur="semibrevis" oct="3" pname="b">
+									 <verse n="1">
+										 <syl wordpos="i">spyght:</syl>
+									 </verse>
+								 </note>
+								 <barLine />
+								 <note dur="minima" oct="3" pname="b">
+									 <verse n="1">
+										 <syl wordpos="i">in</syl>
+									 </verse>
+								 </note>
+								 <note dur="semibrevis" oct="3" pname="b">
+									 <verse n="1">
+										 <syl con="d" wordpos="i">fu</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="b">
+									 <verse n="1">
+										 <syl wordpos="t">ry</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="b">
+									 <verse n="1">
+										 <syl con ="d" wordpos="i">ra</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="4" pname="c">
+									 <verse n="1">
+										 <syl wordpos="t">gyng</syl>
+									 </verse>
+								 </note>
+								 <note dur="semibrevis" oct="3" pname="b">
+									 <verse n="1">
+										 <syl wordpos="i">stout,</syl>
+									 </verse>
+								 </note>
+								 <dot />
+								 <barLine />
+								 <note dur="minima" oct="3" pname="e">
+									 <accid oloc="4" ploc="c" accid="s" />
+									 <verse n="1">
+										 <syl wordpos="i">Why</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="b">
+									 <verse n="1">
+										 <syl wordpos="i">takth</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="b">
+									 <verse n="1">
+										 <syl wordpos="i">in</syl>
+									 </verse>
+								 </note>
+								 <note dur="semibrevis" oct="3" pname="b">
+									 <verse n="1">
+										 <syl wordpos="i">hand:</syl>
+									 </verse>
+								 </note>
+								 <dot />
+								 <barLine />
+								 <note dur="minima" oct="3" pname="g">
+									 <verse n="1">
+										 <syl wordpos="i">the</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="a">
+									 <verse n="1">
+										 <syl con="d" wordpos="i">peo</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="a">
+									 <verse n="1">
+										 <syl wordpos="t">ple</syl>
+									 </verse>
+								 </note>
+								 <note dur="semibrevis" oct="3" pname="b">
+									 <verse n="1">
+										 <syl wordpos="i">fond:</syl>
+									 </verse>
+								 </note>
+								 <barLine />
+								 <note dur="minima" oct="3" pname="b">
+									 <verse n="1">
+										 <syl wordpos="i">vayne</syl>
+									 </verse>
+								 </note>
+								 <note dur="semibrevis" oct="3" pname="b">
+									 <verse n="1">
+										 <syl wordpos="i">thinges</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="b">
+									 <verse n="1">
+										 <syl wordpos="i">to</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="4" pname="c">
+									 <verse n="1">
+										 <syl wordpos="i">bryng</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="a">
+									 <verse n="1">
+										 <syl con="d" wordpos="i">a</syl>
+									 </verse>
+								 </note>
+								 <note dur="semibrevis" oct="3" pname="b">
+									 <verse n="1">
+										 <syl wordpos="t">bout:</syl>
+									 </verse>
+								 </note>
+								 <dot />
+								 <barLine />
+								 <note dur="minima" oct="3" pname="b">
+									 <verse n="1">
+										 <syl wordpos="i">The</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="b">
+									 <verse n="1">
+										 <syl wordpos="i">kyngs</syl>
+									 </verse>
+								 </note>
+								 <dot />
+								 <note dur="semiminima" oct="4" pname="c">
+									 <verse n="1">
+										 <syl con="d" wordpos="i">a</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="4" pname="d">
+									 <verse n="1">
+									 </verse>
+								 </note>
+								 <note dur="semibrevis" oct="4" pname="e">
+									 <verse n="1">
+										 <syl wordpos="t">rise:</syl>
+									 </verse>
+								 </note>
+								 <barLine />
+								 <note dur="minima" oct="4" pname="d">
+									 <verse n="1">
+										 <syl wordpos="i">the</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="4" pname="c">
+									 <verse n="1">
+										 <syl wordpos="i">lordes</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="4" pname="c">
+									 <verse n="1">
+										 <syl con="d" wordpos="i">de</syl>
+									 </verse>
+								 </note>
+								 <note dur="semibrevis" oct="3" pname="b">
+									 <verse n="1">
+										 <syl wordpos="t">vise:</syl>
+									 </verse>
+								 </note>
+								 <barLine />
+								 <note dur="minima" oct="3" pname="g">
+									 <verse n="1">
+										 <syl wordpos="i">in</syl>
+									 </verse>
+								 </note>
+								 <note dur="semibrevis" oct="3" pname="a">
+									 <verse n="1">
+										 <syl con="d" wordpos="i">coun</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="e">
+									 <verse n="1">
+										 <syl wordpos="t">sayles</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="f">
+									 <verse n="1">
+										 <syl wordpos="i">met</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="f">
+									 <verse n="1">
+										 <syl con="d" wordpos="i">there</syl>
+									 </verse>
+								 </note>
+								 <note dur="semibrevis" oct="3" pname="e">
+									 <verse n="1">
+										 <syl wordpos="t">to,</syl>
+									 </verse>
+								 </note>
+								 <dot />
+								 <barLine />
+								 <note dur="minima" oct="3" pname="a">
+									 <verse n="1">
+										 <syl con="d" wordpos="i">A</syl>
+									 </verse>
+								 </note>
+								 <note dur="semibrevis" oct="4" pname="c">
+									 <verse n="1">
+										 <syl wordpos="t">gaynst</syl>
+									 </verse>
+								 </note>
+								 <dot />
+								 <note dur="semiminima" oct="3" pname="b">
+									 <verse n="1">
+										 <syl wordpos="i">the</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="a">
+									 <verse n="1">
+									 </verse>
+								 </note>
+								 <note dur="semibrevis" oct="3" pname="g">
+									 <verse n="1">
+										 <syl wordpos="i">Lord:</syl>
+									 </verse>
+								 </note>
+								 <barLine />
+								 <note dur="minima" oct="3" pname="e">
+									 <verse n="1">
+										 <syl wordpos="i">wyth</syl>
+									 </verse>
+								 </note>
+								 <note dur="semibrevis" oct="3" pname="a">
+									 <verse n="1">
+										 <syl wordpos="i">false</syl>
+									 </verse>
+								 </note>
+								 <dot />
+								 <note dur="semiminima" oct="3" pname="g">
+									 <verse n="1">
+										 <syl con="d" wordpos="i">ac</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="f">
+									 <verse n="1">
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="e">
+									 <verse n="1">
+										 <syl wordpos="t">cord:</syl>
+									 </verse>
+								 </note>
+								 <barLine />
+								 <note dur="minima" oct="3" pname="g">
+									 <verse n="1">
+										 <syl con="d" wordpos="i">a</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="f">
+									 <verse n="1">
+										 <syl wordpos="t">gaynst</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="d">
+									 <verse n="1">
+										 <syl wordpos="i">hys</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="e">
+									 <verse n="1">
+										 <syl wordpos="i">Christ</syl>
+									 </verse>
+								 </note>
+								 <note dur="minima" oct="3" pname="e">
+									 <verse n="1">
+										 <syl wordpos="i">they</syl>
+									 </verse>
+								 </note>
+								 <note dur="longa" oct="3" pname="e" stem.dir="up">
+									 <verse n="1">
+										 <syl wordpos="i">go.</syl>
+									 </verse>
+								 </note>
+								 <barLine form="dbl" />
+							 </layer>
+						</staff>
+	  		 </section>
+        </score>
+      </mdiv>
+    </body>
+  <music>
+</mei>
