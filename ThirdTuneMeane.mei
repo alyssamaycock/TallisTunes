@@ -28,10 +28,10 @@
                   </staffDef>
               </staffGrp>
 			 </scoreDef>
-          <section>
-               <staff n="1">
-                    <layer n="1">
-                        <note dur="minima" oct="4" pname="e">
+         <section>
+           <staff n="1">
+             <layer n="1">
+               <note dur="minima" oct="4" pname="e">
 									<verse n="1">
 										<syl wordpos="i">Why</syl>
 									</verse>
