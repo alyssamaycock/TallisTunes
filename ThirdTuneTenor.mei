@@ -2,8 +2,16 @@
 <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
 	<meiHead>
 		<fileDesc>
-			<titleStmt>
-        <title>The Third Tune: Why fumeth and fight</title>
+		<titleStmt>
+        <title>The Third Tune: Why fumeth in sight</title>
+		  <title type="subtitle">The third doth rage: and roughly brayth.</title>
+		  <title type="subtitle">Psalm 2</title>
+		  <respStmt>
+			 <persName role="composer">Thomas Tallis</persName>
+		  </respStmt>
+		  <respStmt>
+			 <persName role="lyricist">Archbishop Matthew Parker</persName>
+		  </respStmt>
         <editor>Alyssa Maycock</editor>
       </titleStmt>
       <pubStmt>
@@ -12,10 +20,14 @@
     </fileDesc>
     <workDesc>
       <work>
-        <title>Why fumeth and fight</title>
+        <title>Why fumeth in sight</title>
         <composer>Thomas Tallis</composer>
       </work>
     </workDesc>
+	 <sourceDesc>
+		 <source xml:id="ParkerPsalter"></source>
+		 <source xml:id="AddMS15166"></source>
+	 </sourceDesc>
   </meiHead>
   <music>
     <body>
@@ -23,17 +35,23 @@
         <score>
           <scoreDef>
               <staffGrp n="1">
-					  		<staffDef clef.line="4" clef.shape="C" key.sig="0" lines="5" n="1" notationtype="mensural">
-                  <label>Tenor</label>
-                </staffDef>
+					  <staffDef clef.line="4" clef.shape="C" key.sig="0" lines="5" n="1" mensur.sign="C" mensur.slash="1" notationtype="mensural">
+                    <label>Tenor</label>
+                  </staffDef>
               </staffGrp>
 			 </scoreDef>
           <section>
 					<staff n="1">
 							<layer n="1">
-								 <dot />
+							 	 <rest dur="minima" oloc="3" ploc="f" />
 								 <note dur="minima" oct="3" pname="e">
-									 <accid oloc="4" ploc="c" ho="3" accid="s" />
+									 <app>
+ 										<lem>
+ 										</lem>
+ 										<rdg source="#ParkerPsalter">
+ 											<accid oloc="4" ploc="c" accid="s" />
+ 										</rdg>
+ 									</app>
 									 <verse n="1">
 										 <syl wordpos="i">Why</syl>
 									 </verse>
@@ -50,11 +68,10 @@
 								 </note>
 								 <note dur="semibrevis" oct="3" pname="g">
 									 <verse n="1">
-										 <syl wordpos="i">fight:</syl>
+										 <syl wordpos="i">sight:</syl>
 									 </verse>
 								 </note>
 								 <dot />
-								 <barLine />
 								 <note dur="minima" oct="3" pname="g">
 									 <verse n="1">
 										 <syl wordpos="i">the</syl>
@@ -67,15 +84,14 @@
 								 </note>
 								 <note dur="minima" oct="3" pname="a">
 									 <verse n="1">
-										 <syl wordpos="t">tiles</syl>
+										 <syl wordpos="t">tils</syl>
 									 </verse>
 								 </note>
 								 <note dur="semibrevis" oct="3" pname="b">
 									 <verse n="1">
-										 <syl wordpos="i">spyght:</syl>
+										 <syl wordpos="i">spite,</syl>
 									 </verse>
 								 </note>
-								 <barLine />
 								 <note dur="minima" oct="3" pname="b">
 									 <verse n="1">
 										 <syl wordpos="i">in</syl>
@@ -98,25 +114,40 @@
 								 </note>
 								 <note dur="minima" oct="4" pname="c">
 									 <verse n="1">
-										 <syl wordpos="t">gyng</syl>
+										 <syl wordpos="t">ging</syl>
 									 </verse>
 								 </note>
 								 <note dur="semibrevis" oct="3" pname="b">
 									 <verse n="1">
-										 <syl wordpos="i">stout,</syl>
+										 <syl wordpos="i">stout?</syl>
 									 </verse>
 								 </note>
-								 <dot />
-								 <barLine />
+								 <custos oct="3" pname="e" />
+								 <barLine form="invis" />
+								 <sb></sb>
+								 <app>
+									 <lem>
+										 <rest dur="minima" />
+									 </lem>
+									 <rdg source="#ParkerPsalter">
+										 <rest dur="minima" oloc="3" ploc="g" />
+									 </rdg>
+								 </app>
 								 <note dur="minima" oct="3" pname="e">
-									 <accid oloc="4" ploc="c" accid="s" />
+									  <app>
+  										<lem>
+  										</lem>
+  										<rdg source="#ParkerPsalter">
+  											<accid oloc="4" ploc="c" accid="s" />
+  										</rdg>
+  									</app>
 									 <verse n="1">
 										 <syl wordpos="i">Why</syl>
 									 </verse>
 								 </note>
 								 <note dur="minima" oct="3" pname="b">
 									 <verse n="1">
-										 <syl wordpos="i">takth</syl>
+										 <syl wordpos="i">taketh</syl>
 									 </verse>
 								 </note>
 								 <note dur="minima" oct="3" pname="b">
@@ -126,11 +157,10 @@
 								 </note>
 								 <note dur="semibrevis" oct="3" pname="b">
 									 <verse n="1">
-										 <syl wordpos="i">hand:</syl>
+										 <syl wordpos="i">hond:</syl>
 									 </verse>
 								 </note>
 								 <dot />
-								 <barLine />
 								 <note dur="minima" oct="3" pname="g">
 									 <verse n="1">
 										 <syl wordpos="i">the</syl>
@@ -148,10 +178,9 @@
 								 </note>
 								 <note dur="semibrevis" oct="3" pname="b">
 									 <verse n="1">
-										 <syl wordpos="i">fond:</syl>
+										 <syl wordpos="i">fond,</syl>
 									 </verse>
 								 </note>
-								 <barLine />
 								 <note dur="minima" oct="3" pname="b">
 									 <verse n="1">
 										 <syl wordpos="i">vayne</syl>
@@ -169,7 +198,7 @@
 								 </note>
 								 <note dur="minima" oct="4" pname="c">
 									 <verse n="1">
-										 <syl wordpos="i">bryng</syl>
+										 <syl wordpos="i">bring</syl>
 									 </verse>
 								 </note>
 								 <note dur="minima" oct="3" pname="a">
@@ -182,8 +211,10 @@
 										 <syl wordpos="t">bout:</syl>
 									 </verse>
 								 </note>
-								 <dot />
-								 <barLine />
+								 <custos oct="3" pname="b"/>
+								 <barLine form="invis" />
+								 <sb></sb>
+								 <rest dur="minima" oloc="3" ploc="a" />
 								 <note dur="minima" oct="3" pname="b">
 									 <verse n="1">
 										 <syl wordpos="i">The</syl>
@@ -191,7 +222,7 @@
 								 </note>
 								 <note dur="minima" oct="3" pname="b">
 									 <verse n="1">
-										 <syl wordpos="i">kyngs</syl>
+										 <syl wordpos="i">kinges</syl>
 									 </verse>
 								 </note>
 								 <dot />
@@ -209,7 +240,6 @@
 										 <syl wordpos="t">rise:</syl>
 									 </verse>
 								 </note>
-								 <barLine />
 								 <note dur="minima" oct="4" pname="d">
 									 <verse n="1">
 										 <syl wordpos="i">the</syl>
@@ -227,10 +257,9 @@
 								 </note>
 								 <note dur="semibrevis" oct="3" pname="b">
 									 <verse n="1">
-										 <syl wordpos="t">vise:</syl>
+										 <syl wordpos="t">vise,</syl>
 									 </verse>
 								 </note>
-								 <barLine />
 								 <note dur="minima" oct="3" pname="g">
 									 <verse n="1">
 										 <syl wordpos="i">in</syl>
@@ -248,21 +277,23 @@
 								 </note>
 								 <note dur="minima" oct="3" pname="f">
 									 <verse n="1">
-										 <syl wordpos="i">met</syl>
+										 <syl wordpos="i">mett</syl>
 									 </verse>
 								 </note>
 								 <note dur="minima" oct="3" pname="f">
 									 <verse n="1">
-										 <syl con="d" wordpos="i">there</syl>
+										 <syl con="d" wordpos="i">ther</syl>
 									 </verse>
 								 </note>
 								 <note dur="semibrevis" oct="3" pname="e">
 									 <verse n="1">
-										 <syl wordpos="t">to,</syl>
+										 <syl wordpos="t">to:</syl>
 									 </verse>
 								 </note>
-								 <dot />
-								 <barLine />
+								 <custos oct="3" pname="a"/>
+								 <barLine form="invis" />
+								 <sb></sb>
+								 <rest dur="minima" oloc="3" ploc="f" />
 								 <note dur="minima" oct="3" pname="a">
 									 <verse n="1">
 										 <syl con="d" wordpos="i">A</syl>
@@ -288,10 +319,9 @@
 										 <syl wordpos="i">Lord:</syl>
 									 </verse>
 								 </note>
-								 <barLine />
 								 <note dur="minima" oct="3" pname="e">
 									 <verse n="1">
-										 <syl wordpos="i">wyth</syl>
+										 <syl wordpos="i">with</syl>
 									 </verse>
 								 </note>
 								 <note dur="semibrevis" oct="3" pname="a">
@@ -311,10 +341,9 @@
 								 </note>
 								 <note dur="minima" oct="3" pname="e">
 									 <verse n="1">
-										 <syl wordpos="t">cord:</syl>
+										 <syl wordpos="t">cord,</syl>
 									 </verse>
 								 </note>
-								 <barLine />
 								 <note dur="minima" oct="3" pname="g">
 									 <verse n="1">
 										 <syl con="d" wordpos="i">a</syl>
@@ -322,12 +351,12 @@
 								 </note>
 								 <note dur="minima" oct="3" pname="f">
 									 <verse n="1">
-										 <syl wordpos="t">gaynst</syl>
+										 <syl wordpos="t">gainst</syl>
 									 </verse>
 								 </note>
 								 <note dur="minima" oct="3" pname="d">
 									 <verse n="1">
-										 <syl wordpos="i">hys</syl>
+										 <syl wordpos="i">his</syl>
 									 </verse>
 								 </note>
 								 <note dur="minima" oct="3" pname="e">
@@ -349,6 +378,68 @@
 							 </layer>
 						</staff>
 	  		 </section>
+			 <div type="appendix">
+				<lg>
+					<l>Let us they say: break downe their ray,</l>
+				  <l>of all their bondes and cordes:</l>
+				  <l>We will renounce: that they pronounce,</l>
+				  <l>their loores as stately lordes.</l>
+				</lg>
+				<lg>
+					<l>But God of might: in heaven so bright,</l>
+					<l>Shall laugh them all to scorne:</l>
+					<l>The Lord on hie: shall them defie,</l>
+					<l>they shall be once forlorne.</l>
+				</lg>
+				<lg>
+					<l>Then shall his ire: speake all in fire,</l>
+					<l>to them agayne therefore:</l>
+					<l>He shall with threate: their malice beate,</l>
+					<l>in his displeasure sore.</l>
+				</lg>
+				<lg>
+					<l>Yet am I set: a king so great,</l>
+					<l>on Sion hill full fast:</l>
+					<l>Though me they kill: yet will that hill,</l>
+					<l>my lawe and worde outcast.</l>
+				</lg>
+				<lg>
+					<l>Gods wordes decried: I (Christ) wil sprede</l>
+					<l>for God thus sayd to me:</l>
+					<l>My sonne I say: thou art, this day,</l>
+					<l>I have begotten thee</l>
+				</lg>
+				<lg>
+					<l>Aske thou of mee: I will geve thee,</l>
+					<l>to rule all Gentils londes:</l>
+					<l>Though shalt possesse: in suernesse,</l>
+					<l>the world how wide it stondes.</l>
+				</lg>
+				<lg>
+					<l>With iron rod: as mighty God,</l>
+					<l>all rebels shalt thou bruse:</l>
+					<l>And breake them all: in piece small,</l>
+					<l>as sherdes the potters use.</l>
+				</lg>
+				<lg>
+					<l>Be wise therefore: ye kinges the more,</l>
+					<l>Receyve ye wisdomes lore:</l>
+					<l>Ye judges strong: of right and wrong,</l>
+					<l>advise you now before.</l>
+				</lg>
+				<lg>
+					<l>The Lorde in feare: your service beare,</l>
+					<l>with dread to him rejoyce:</l>
+					<l>Let rages be: refilt not ye,</l>
+					<l>him serve with joyfull voyce.</l>
+				</lg>
+				<lg>
+					<l>The sonne kisse ye: lest wroth he be,</l>
+					<l>lose not the way of rest:</l>
+					<l>For when his ire: is set on fire,</l>
+					<l>who trust in hym be blest.</l>
+				</lg>
+			  </div>
         </score>
       </mdiv>
     </body>
