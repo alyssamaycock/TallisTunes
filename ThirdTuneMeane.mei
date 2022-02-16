@@ -64,7 +64,7 @@
 										<syl wordpos="i">sight:</syl>
 									</verse>
 								</note>
-								<dot />
+								<dot ho="-5" form="aug"/>
 								<note dur="minima" oct="4" pname="e">
 									<verse n="1">
 										<syl wordpos="i">the</syl>
@@ -169,7 +169,7 @@
 										<syl wordpos="i">hond:</syl>
 									</verse>
 								</note>
-								<dot />
+								<dot ho="-5" form="aug"/>
 								<note dur="minima" oct="4" pname="b">
 									<app>
 										<lem souce="#AddMS15166">
@@ -265,7 +265,7 @@
 										<syl wordpos="i">kinges</syl>
 									</verse>
 								</note>
-								<dot form="aug" />
+								<dot ho="-5" form="aug" />
 								<note dur="semiminima" oct="4" pname="a">
 									<verse n="1">
 										<syl con="d" wordpos="i">a</syl>
@@ -344,7 +344,7 @@
 										<syl wordpos="t">gaynst</syl>
 									</verse>
 								</note>
-								<dot />
+								<dot ho="-5" form="aug"/>
 								<note dur="semiminima" oct="4" pname="g">
 									<verse n="1">
 										<syl wordpos="i">the</syl>
