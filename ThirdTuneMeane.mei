@@ -370,7 +370,7 @@
 										<syl wordpos="i">false</syl>
 									</verse>
 								</note>
-								<dot />
+								<dot ho="-5" form="aug"/>
 								<note dur="semiminima" oct="4" pname="b">
 									<verse n="1">
 										<syl con="d" wordpos="i">ac</syl>

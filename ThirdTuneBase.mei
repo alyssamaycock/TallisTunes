@@ -71,7 +71,7 @@
 										 <syl wordpos="i">sight:</syl>
 									 </verse>
 								 </note>
-								 <dot />
+								 <dot ho="-5" form="aug"/>
 								 <note dur="minima" oct="3" pname="g">
 									 <verse n="1">
 										 <syl wordpos="i">the</syl>
@@ -153,7 +153,7 @@
 										 <syl wordpos="i">hond:</syl>
 									 </verse>
 								 </note>
-								 <dot />
+								 <dot ho="-5" form="aug"/>
 								 <note dur="minima" oct="3" pname="g">
 									 <verse n="1">
 										 <syl wordpos="i">the</syl>
